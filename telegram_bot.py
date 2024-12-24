@@ -220,7 +220,7 @@ async def command_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     await update.message.reply_text("請選擇\n"
                                     "/list_commands - 已有的指令\n"
                                     "/add_command <command> <url> - 新增指令\n"
-                                    "/open <command> - 開啟網站")
+                                    "/oplink <command> - 開啟網站")
     
 async def add_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """處理 /add_command 指令以新增自定義指令"""
