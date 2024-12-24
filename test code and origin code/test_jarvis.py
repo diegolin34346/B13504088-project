@@ -32,7 +32,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         await update.message.reply_text("Sorry, I can't do that yet.")
 
 def main():
-    token = "7829454083:AAG_HABubDeeF1AOG3g2qhYyNMwrkE9rAVc"
+    token = "your telegram bot api"
     app = Application.builder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))
