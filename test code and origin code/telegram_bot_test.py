@@ -255,7 +255,7 @@ async def list_commands(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 # === 主程式 ===
 
 async def main():
-        token = "7829454083:AAG_HABubDeeF1AOG3g2qhYyNMwrkE9rAVc"
+        token = "your telegram bot api"
         app = Application.builder().token(token).build()
 
         print("[INFO] Bot 開始運行")
