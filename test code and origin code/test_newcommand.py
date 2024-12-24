@@ -51,7 +51,7 @@ async def list_commands(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         await update.message.reply_text("尚未新增任何指令！")
 
 def main():
-    token = "7829454083:AAG_HABubDeeF1AOG3g2qhYyNMwrkE9rAVc"
+    token = "your telegram bot api"
     app = Application.builder().token(token).build()
 
     app.add_handler(CommandHandler("start", start))
